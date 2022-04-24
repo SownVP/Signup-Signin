@@ -10,8 +10,8 @@
     <title>Đăng Nhập/Đăng Kí</title>
 </head>
 <body>
-    <script src="./main.js"></script>
-    <div class="form-container sign-up-container">
+    <div class="container">
+    <div class="form-container sign-up-container ">
         <form action="#">
             <h1>Create Account</h1>
             <div class="social-container">
@@ -20,13 +20,13 @@
                 <a href="#" class="social social--github"><i class="social__icon fa-brands fa-github"></i></a>
             </div>
             <span>or use your email for registration</span>
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required />
             <button>Sign Up</button>
         </form>
     </div>
-    <div class="form-container sign-in-container">
+    <div class="form-container sign-in-container ">
         <form action="#">
             <h1>Sign in</h1>
             <div class="social-container">
@@ -35,10 +35,10 @@
                 <a href="#" class="social social--github"><i class="social__icon fa-brands fa-github"></i></a>
             </div>
             <span>or use your account</span>
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required />
             <a href="#" class="fgpass">Forgot your password?</a>
-            <button>Sign In</button>
+            <button >Sign In</button>
         </form>
     </div>
     <div class="overlay-container">
@@ -55,5 +55,7 @@
             </div>
         </div>
     </div>
+</div>
 </body>
+    <script src="./main.js"></script>
 </html>
