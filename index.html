@@ -7,51 +7,54 @@
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Oswald:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
     <title>Đăng Nhập/Đăng Kí</title>
 </head>
 <body>
     <div class="container">
     <div class="form-container sign-up-container ">
         <form action="#">
-            <h1>Create Account</h1>
+            <h1>Tạo tài khoản</h1>
             <div class="social-container">
                 <a href="#" class="social social--facebook"><i class="social__icon fab fa-facebook-f"></i></a>
                 <a href="#" class="social social--google"><i class="social__icon fab fa-google-plus-g"></i></a>
                 <a href="#" class="social social--github"><i class="social__icon fa-brands fa-github"></i></a>
             </div>
-            <span>or use your email for registration</span>
-            <input type="text" placeholder="Name" required />
+            <span>hoặc sử dụng email của bạn để đăng kí</span>
+            <input type="text" placeholder="Tên đăng nhập" required />
             <input type="email" placeholder="Email" required />
-            <input type="password" placeholder="Password" required />
-            <button>Sign Up</button>
+            <input type="password" placeholder="Mật khẩu" required />
+            <button>ĐĂNG KÍ</button>
         </form>
     </div>
     <div class="form-container sign-in-container ">
         <form action="#">
-            <h1>Sign in</h1>
+            <h1>Đăng nhập</h1>
             <div class="social-container">
                 <a href="#" class="social social--facebook"><i class="social__icon fab fa-facebook-f"></i></a>
                 <a href="#" class="social social--google"><i class="social__icon fab fa-google-plus-g"></i></a>
                 <a href="#" class="social social--github"><i class="social__icon fa-brands fa-github"></i></a>
             </div>
-            <span>or use your account</span>
+            <span>hoặc sử dụng email của bạn</span>
             <input type="email" placeholder="Email" required />
-            <input type="password" placeholder="Password" required />
-            <a href="#" class="fgpass">Forgot your password?</a>
-            <button >Sign In</button>
+            <input type="password" placeholder="Mật khẩu" required />
+            <a href="#" class="fgpass">Quên tài khoản của bạn?</a>
+            <button >Đăng nhập</button>
         </form>
     </div>
     <div class="overlay-container">
         <div class="overlay">
             <div class="overlay-panel overlay-left">
-                <h1>Welcome Back!</h1>
-                <p>To keep connected with us please login with your personal info</p>
-                <button class="ghost" id="signIn">Sign In</button>
+                <h1>Chào mừng bạn trở lại!</h1>
+                <p>Để giữ kết nối với chúng tôi, vui lòng đăng nhập bằng tài khoản cá nhân của bạn</p>
+                <button class="ghost" id="signIn">Đăng nhập</button>
             </div>
             <div class="overlay-panel overlay-right">
-                <h1>Hello, Friend!</h1>
-                <p>Enter your personal details and start journey with us</p>
-                <button class="ghost" id="signUp">Sign Up</button>
+                <h1>Xin chào!</h1>
+                <p>Đăng kí tài khoản của bạn và bắt đầu hành trình cùng với chúng tôi</p>
+                <button class="ghost" id="signUp">Đăng kí</button>
             </div>
         </div>
     </div>
